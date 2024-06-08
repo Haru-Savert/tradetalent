@@ -48,3 +48,88 @@ nav ul li a {
 nav ul li a:hover {
     color: #000;
 }
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #df9dcc; /* Cor de fundo rosa claro */
+    color: #333; /* Cor do texto do rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    text-align: center; /* Alinhamento do texto no centro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte bonita */
+}
+
+.conteudo-rodape {
+    max-width: 1200px; /* Largura máxima do conteúdo do rodapé */
+    margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+}
+
+.links-rodape {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover espaçamento interno */
+}
+
+.links-rodape li {
+    display: inline; /* Exibir os itens da lista horizontalmente */
+    margin-right: 10px; /* Espaçamento entre os itens da lista */
+}
+
+.links-rodape li:last-child {
+    margin-right: 0; /* Remover o espaçamento à direita do último item da lista */
+}
+
+.links-rodape li a {
+    color: #663692; /* Cor do texto dos links do rodapé */
+    text-decoration: none; /* Remover sublinhado dos links */
+    font-weight: bold; /* Deixar o texto dos links em negrito */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+.links-rodape li a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre os links */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    margin: 0 auto; /* Define margens automáticas na horizontal para centralizar */
+    font-size: 28px;
+    color: #ff69b4; /* Cor rosa bonitinha */
+    line-height: 1; /* Evita espaçamento extra em volta do texto */
+}
+
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.species-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.species-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.species-card h3 {
+    margin-top: 10px;
+}
